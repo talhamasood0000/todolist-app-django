@@ -1,0 +1,11 @@
+pip3.7 install virtualenv
+python -m virtualenv MyEnv
+.\MyEnv\Scripts\activate
+pip install django
+django-admin startproject mysite
+cd mysite
+python manage.py startapp polls
+
+
+
+fdfa alt+x
